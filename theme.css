@@ -87,7 +87,7 @@ html, body{
 .sub-heading-bottom {
     font-family: "Caveat", cursive;
     text-align: center;
-    font-size: .6em;
+    font-size: 8em;
     margin-top: 10px; /* Reduce el margen superior */
         }
 @media only screen and (max-width: 600px) {
