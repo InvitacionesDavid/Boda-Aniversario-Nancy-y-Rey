@@ -75,7 +75,7 @@ html, body{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 2em;
-    margin-top:2em;
+    margin-top: 2em;
 }
 .fas {
     font-size: 3em;
@@ -84,7 +84,12 @@ html, body{
 .resort-image{
     width: 100%
 }
-
+.sub-heading-bottom {
+    font-family: "Caveat", cursive;
+    text-align: center;
+    font-size: .6em;
+    margin-top: 10px; /* Reduce el margen superior */
+        }
 @media only screen and (max-width: 600px) {
     .heading {
         font-size: 4em;
