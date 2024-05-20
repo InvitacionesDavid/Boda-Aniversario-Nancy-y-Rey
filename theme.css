@@ -67,6 +67,12 @@ html, body{
     font-size: 3em;
     margin-top: 2em;
 }
+.sub-heading-bottom {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 8em;
+    margin-top: 10px; /* Reduce el margen superior */
+        }
 .details{
     margin: 0 auto 8em;
 }
@@ -84,12 +90,7 @@ html, body{
 .resort-image{
     width: 100%
 }
-.sub-heading-bottom {
-    font-family: "Caveat", cursive;
-    text-align: center;
-    font-size: 8em;
-    margin-top: 10px; /* Reduce el margen superior */
-        }
+
 @media only screen and (max-width: 600px) {
     .heading {
         font-size: 4em;
