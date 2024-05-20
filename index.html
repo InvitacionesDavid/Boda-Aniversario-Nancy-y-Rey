@@ -233,22 +233,20 @@
                         gift required.
                     </p></strong>
                 <strong><p>¡MUCHAS GRACIAS!</p></strong>
-                <div class="sub-heading iframe-container">
                 <a href="https://chat.whatsapp.com/DVVad6DZgGMLM1qMzNhwx8 "
                     class="confirm-button">
                     CONFIRMAR ASISTENCIA
                 </a>
+                    <h5 class="sub-heading iframe-container">
                     ¡NOS VEMOS EN LA CELEBRACIÓN DE NANCY Y REY!
-                </div>
+                </h5>
             </div>
         </section>
-
         <script>
             function updateCountdown() {
                 const targetDate = new Date("June 15, 2024 00:00:00").getTime();
                 const now = new Date().getTime();
                 const difference = targetDate - now;
-
                 const days = Math.floor(difference / (1000 * 60 * 60 * 24));
                 const hours = Math.floor(
                     (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
@@ -257,7 +255,6 @@
                     (difference % (1000 * 60 * 60)) / (1000 * 60)
                 );
                 const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-
                 document.getElementById("days").innerText = days;
                 document.getElementById("hours").innerText = hours;
                 document.getElementById("minutes").innerText = minutes;
@@ -269,7 +266,6 @@
                         "¡EL GRAN DÍA HA LLEGADO!";
                 }
             }
-
             const countdownInterval = setInterval(updateCountdown, 1000);
             updateCountdown();
         </script>
