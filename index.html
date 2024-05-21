@@ -108,6 +108,19 @@
             height: 100%;
             border: 0;
         }
+        .details-container {
+            display: flex;
+            align-items: center; /* Centra verticalmente el contenido */
+            margin-bottom: 20px; /* Ajusta según sea necesario */
+        }
+        .details-container .icon {
+            margin-right: 10px; /* Espacio entre el icono y el título */
+            font-size: 1.5em; /* Ajusta el tamaño del icono si es necesario */
+        }
+        .details-heading {
+            margin: 0; /* Elimina márgenes predeterminados de los títulos */
+            font-size: 1.2em; /* Ajusta el tamaño del título si es necesario */
+        }
     </style>
     <body>
         <header class="header">
@@ -132,9 +145,11 @@
         </section>
         <section class="section">
             <h2 class="sub-heading">ITINERARIO</h2>
+            <div class="details-container">
             <i class="fas fa-calendar-check"></i>
             <h3 class="details-heading">CUÁNDO</h3>
             <p><strong>15 DE JUNIO, 2024</strong></p>
+                </div>
             <div class="countdown">
                 <h1 class="countdown-title details-heading">SÓLO FALTAN</h1>
                 <div>
@@ -155,12 +170,14 @@
                 </div>
             </div>
             <div class="ceremony">
+                <div class="details-container">
                 <i class="fas fa-church"></i>
                 <h3 class="details-heading">CEREMONIA RELIGIOSA</h3>
                 <p>
                     <a rel="noopener" href="https://www.facebook.com/SanMartinDePorresCDJ"><strong>PARROQUIA SAN MARTÍN DE PORRES</strong></a><strong>, CIUDAD JUÁREZ, CHIHUAHUA</strong>
                 </p>
                 <strong><p><a>HORARIO DE 6:00 PM</a></p></strong>
+                    </div>
                  <div class="iframe-container">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.0940290676267!2d-106.4790194780487!3d31.685997310056056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75efb95bd10c3%3A0x375426f4f9434d41!2sParroquia%20de%20San%20Mart%C3%ADn%20de%20Porres!5e0!3m2!1ses-419!2smx!4v1716091855666!5m2!1ses-419!2smx"
@@ -175,12 +192,14 @@
             </div>
             <br /><br />
             <div class="recepction">
+                <div class="details-container">
                 <i class="fas fa-map-marked-alt"></i>
                 <h3 class="details-heading">RECEPCIÓN</h3>
                 <p>
                     <a rel="noopener" href="https://www.facebook.com/p/Recepciones-y-Terraza-Victoria-100083586361410/"><strong>SALÓN DE RECEPCIONES VICTORIA</strong></a><strong>, CIUDAD JUÁREZ, CHIHUAHUA</strong>
                 </p>
                 <strong><p><a>HORARIO DE 9:00 PM A 1:00 AM</a></p></strong>
+                    </div>
                  <div class="iframe-container">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.18846091413!2d-106.46649360773394!3d31.738056469621306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e759ace712a9d3%3A0x1e303e2fffdde0fc!2sRecepciones%20Victoria%20Sal%C3%B3n%20y%20Terraza!5e0!3m2!1ses-419!2smx!4v1716091889507!5m2!1ses-419!2smx"
@@ -198,6 +217,7 @@
             </div>
             <br /><br />
             <div class="details">
+                <div class="details-container">
                 <i class="fas fa-question"></i>
                 <h3 class="details-heading">CÓDIGO DE VESTIMENTA</h3>
                 <p>
@@ -220,9 +240,11 @@
                         bouquet wedding mother. Magic first dancing fish chicken
                         champagne debt mother guitar acoustic bass.</strong>
                 </p>
+                    </div>
             </div>
             <br /><br />
             <div class="details">
+                <div class="details-container">
                 <i class="fas fa-asterisk"></i>
                 <h3 class="details-heading">Otras Notas</h3>
                 <strong
@@ -237,6 +259,7 @@
                         gift required.
                     </p></strong>
                 <strong><p>¡MUCHAS GRACIAS!</p></strong>
+                    </div>
                 <a href="https://chat.whatsapp.com/DVVad6DZgGMLM1qMzNhwx8 "
                     class="confirm-button">
                     CONFIRMAR ASISTENCIA
