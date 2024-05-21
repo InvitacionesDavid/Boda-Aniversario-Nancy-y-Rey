@@ -83,16 +83,6 @@ html, body{
     font-size: 2em;
     margin-top: 2em;
 }
-.details-container {
-    display: flex;
-    align-items: center; /* Centra verticalmente el contenido */
-    margin-bottom: 20px; /* Ajusta según sea necesario */
-}
-
-.details-container .icon {
-    margin-right: 10px; /* Espacio entre el icono y el título */
-    font-size: 1.5em; /* Ajusta el tamaño del icono si es necesario */
-}
 .fas {
     font-size: 3em;
     opacity: .8;
