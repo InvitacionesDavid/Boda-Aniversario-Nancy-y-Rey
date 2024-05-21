@@ -82,7 +82,7 @@ html, body{
     text-transform: uppercase;
     font-size: 2em;
     margin-top: 2em;
-    margin-bottom: 5px; /* Puedes ajustar este valor según tu preferencia */
+    margin-bottom: 2px; /* Puedes ajustar este valor según tu preferencia */
 }
 .fas {
     font-size: 3em;
