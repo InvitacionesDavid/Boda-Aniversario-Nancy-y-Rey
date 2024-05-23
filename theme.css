@@ -34,9 +34,10 @@ html, body{
     font-size: .6em;
 }
 .num-size {
-    font-size: 1em; /* Ajusta este valor según el tamaño que desees para los números */
-    font-weight: bold; /* Opcional: añade peso a los números */
     color: #ffffff; /* Opcional: cambia el color si lo deseas */
+    display: block;
+    font-family: "Caveat", cursive;
+    font-size: .6em; /* Ajusta este valor según el tamaño que desees para los números */
 }
 .fixed-button{
     background: rgba(20,20,20,.5);
