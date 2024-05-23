@@ -277,7 +277,7 @@
                     <br><br><br><br><br><br><br><br> 
                 </div>
                 </section>
-            <footer id="footer">
+            <footer>
                   <p>&copy; <span id="currentYear"></span> David Orduño Cervantes</p>
               </footer>
         <script>
@@ -308,19 +308,6 @@
             updateCountdown(); 
             // Obtener el año actual y establecerlo en el footer
             document.getElementById("currentYear").innerHTML = new Date().getFullYear();
-            // Función para mostrar u ocultar el footer según la posición del scroll
-        function toggleFooterVisibility() {
-            var footer = document.getElementById("footer");
-            var contentHeight = document.body.scrollHeight;
-            var yOffset = window.pageYOffset;
-            var windowHeight = window.innerHeight;
-
-            if (yOffset + windowHeight >= contentHeight) {
-                footer.style.display = "block";
-            } else {
-                footer.style.display = "none";
-            }
-        }
         </script>
     </body>
 </html>
