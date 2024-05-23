@@ -309,25 +309,6 @@
             const countdownInterval = setInterval(updateCountdown, 1000);
             updateCountdown();
             document.getElementById("currentYear").innerHTML = new Date().getFullYear();
-                // Función para mantener el footer en la parte inferior de la página
-    function keepFooterAtBottom() {
-      var footer = document.getElementById('footer');
-      var body = document.body,
-          html = document.documentElement;
-
-      var height = Math.max( body.scrollHeight, body.offsetHeight, 
-                             html.clientHeight, html.scrollHeight, html.offsetHeight );
-      var windowHeight = window.innerHeight;
-
-      if (height > windowHeight) {
-        footer.style.position = 'relative';
-      } else {
-        footer.style.position = 'fixed';
-        footer.style.bottom = '0';
-        footer.style.left = '0';
-        footer.style.width = '100%';
-      }
-    }
         </script>
     </body>
 </html>
