@@ -36,12 +36,14 @@ html, body{
 .heading-subtext-justify{
     color: #fff;
     display: block;
-    font-family: "Caveat", cursive;    
-    width: 80%; /* Ajusta el ancho según sea necesario */
+    font-family: "Caveat", cursive; 
+    font-size: .6em;
+    max-width: 800px; /* Establece un ancho máximo para mejorar la legibilidad */
     margin: 0 auto; /* Centra el contenedor */
     text-align: justify; /* Justifica el texto */
     text-align-last: center; /* Centra la última línea del texto */
-    font-size: .6em;
+    padding: 10px; /* Añade un poco de relleno */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto total */
 }
 .heading-subtext-justify:after {
     content: "";
@@ -85,12 +87,14 @@ html, body{
 }
 .sub-heading-justify {
     font-family: "Caveat", cursive;
-    width: 80%; /* Ajusta el ancho según sea necesario */
+    font-size: 3em;
+    margin-top: 2em;
+    max-width: 800px; /* Establece un ancho máximo para mejorar la legibilidad */
     margin: 0 auto; /* Centra el contenedor */
     text-align: justify; /* Justifica el texto */
     text-align-last: center; /* Centra la última línea del texto */
-    font-size: 3em;
-    margin-top: 2em; /* Reduce el margen superior */
+    padding: 10px; /* Añade un poco de relleno */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto total */
         }
 .sub-heading-justify:after {
     content: "";
