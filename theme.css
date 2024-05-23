@@ -22,7 +22,7 @@ html, body{
     color: #ffffff;
     display: block;
     font-family: "Caveat", cursive;
-    font-size: 5em;
+    font-size: 6em;
     font-weight: bold;
     text-align: center;
     text-shadow: 0 0 10px #000;
@@ -82,7 +82,7 @@ html, body{
 }
 .sub-heading{
     font-family: "Caveat", cursive;
-    font-size: 3em;
+    font-size: 2.5em;
     margin-top: 2em;
 }
 .sub-heading-justify {
