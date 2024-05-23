@@ -119,3 +119,12 @@ html, body{
 .resort-image{
     width: 100%
 }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente con opacidad */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
