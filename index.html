@@ -278,9 +278,7 @@
                 </section>
         <br><br><br><br><br><br><br><br>  
             <footer>
-                <div>
                   <p>&copy; <span id="currentYear"></span> David Orduño Cervantes</p>
-                </div>
               </footer>
         <script>
             function updateCountdown() {
@@ -307,7 +305,8 @@
                 }
             }
             const countdownInterval = setInterval(updateCountdown, 1000);
-            updateCountdown();
+            updateCountdown(); 
+            // Obtener el año actual y establecerlo en el footer
             document.getElementById("currentYear").innerHTML = new Date().getFullYear();
         </script>
     </body>
