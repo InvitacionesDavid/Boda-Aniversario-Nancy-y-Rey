@@ -308,6 +308,19 @@
             updateCountdown(); 
             // Obtener el año actual y establecerlo en el footer
             document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+            // Mostrar u ocultar el footer al llegar al final de la página
+        window.addEventListener("scroll", function() {
+            var footer = document.getElementById("footer");
+            var contentHeight = document.body.scrollHeight;
+            var yOffset = window.pageYOffset;
+            var windowHeight = window.innerHeight;
+
+            if (yOffset + windowHeight >= contentHeight) {
+                footer.style.display = "block";
+            } else {
+                footer.style.display = "none";
+            }
+        });
         </script>
     </body>
 </html>
