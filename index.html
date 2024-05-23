@@ -55,6 +55,44 @@
             border-radius: 10px;
             margin-top: 20px;
         }
+        /* Ajustes para pantallas pequeñas (móviles) */
+        @media (max-width: 600px) {
+        .heading {
+            font-size: 2em; /* Ajusta el tamaño según sea necesario */
+            }
+
+        .heading-subtext {
+            font-size: 0.8em; /* Ajusta el tamaño según sea necesario */
+            }
+
+        .num-size {
+            font-size: 1em; /* Ajusta el tamaño según sea necesario */
+            }
+        }
+        /* Ajustes para pantallas medianas (tabletas) */
+        @media (min-width: 601px) and (max-width: 900px) {
+        .heading {
+            font-size: 3em; /* Ajusta el tamaño según sea necesario */
+         }
+        .heading-subtext {
+            font-size: 0.9em; /* Ajusta el tamaño según sea necesario */
+        }
+        .num-size {
+            font-size: 1.1em; /* Ajusta el tamaño según sea necesario */
+            }
+        }
+/* Ajustes para pantallas grandes (escritorios) */
+        @media (min-width: 901px) {
+        .heading {
+            font-size: 4em; /* Tamaño original para pantallas grandes */
+        }
+        .heading-subtext {
+            font-size: 1em; /* Tamaño original */
+        }
+        .num-size {
+            font-size: 1.2em; /* Tamaño original */
+            }
+        }
         /* Para pantallas grandes */
         @media screen and (min-width: 1200px) {
             body {
