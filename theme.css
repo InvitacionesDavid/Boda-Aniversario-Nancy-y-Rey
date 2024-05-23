@@ -77,7 +77,7 @@ html, body{
 }
 .sub-heading-bottom {
     font-family: "Caveat", cursive;
-    text-align: center;
+    text-align: justify;
     font-size: 3em;
     margin-top: 2em; /* Reduce el margen superior */
         }
