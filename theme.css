@@ -79,6 +79,7 @@ html, body{
 }
 .details-heading{
     font-family: "Caveat", cursive;
+    text-align: center;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 3em;
