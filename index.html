@@ -270,13 +270,18 @@
                     </strong></p>
                 <p><strong>¡MUCHAS GRACIAS!</strong></p>
                 <a href="https://chat.whatsapp.com/DVVad6DZgGMLM1qMzNhwx8" class="confirm-button">
-                    <strong>CONFIRMAR ASISTENCIA</strong>
+                    CONFIRMAR ASISTENCIA
                 </a>
                     <h2 class="sub-heading">¡NOS VEMOS EN LA CELEBRACIÓN DE REY Y NANCY!
                 </h2>
                 </div>
                 </section>
-        <br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>  
+            <footer>
+                <div class="footer-content">
+                  <p>&copy; <span id="currentYear"></span> David Orduño Cervantes</p>
+                </div>
+              </footer>
         <script>
             function updateCountdown() {
                 const targetDate = new Date("June 15, 2024 00:00:00").getTime();
@@ -303,6 +308,7 @@
             }
             const countdownInterval = setInterval(updateCountdown, 1000);
             updateCountdown();
+            document.getElementById("currentYear").innerHTML = new Date().getFullYear();
         </script>
     </body>
 </html>
