@@ -55,7 +55,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad del 70% */
+  background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px 0;
