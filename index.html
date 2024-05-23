@@ -278,7 +278,7 @@
                 </div>
                 </section>
             <footer class="footer">
-                  <p>&copy; <span id="currentYear"></span> David Orduño Cervantes</p>
+                  <p>&copy; <span id="year"></span> David Orduño Cervantes</p>
               </footer>
         <script>
             function updateCountdown() {
@@ -307,7 +307,9 @@
             const countdownInterval = setInterval(updateCountdown, 1000);
             updateCountdown(); 
         // Obtener el año actual y establecerlo en el footer
-        document.getElementById("year").innerHTML = new Date().getFullYear();
+        window.onload = function() {
+            document.getElementById("year").textContent = new Date().getFullYear();
+        };
         // Función para mostrar u ocultar el footer según la posición del scroll
         function toggleFooterVisibility() {
             var footer = document.getElementById("footer");
