@@ -36,9 +36,17 @@ html, body{
 .heading-subtext-justify{
     color: #fff;
     display: block;
-    font-family: "Caveat", cursive;
+    font-family: "Caveat", cursive;    
+    width: 80%; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto; /* Centra el contenedor */
+    text-align: justify; /* Justifica el texto */
+    text-align-last: center; /* Centra la última línea del texto */
     font-size: .6em;
-    text-align: justify;
+}
+.heading-subtext-justify:after {
+    content: "";
+    display: inline-block;
+    width: 100%; /* Ocupa todo el ancho de la línea */
 }
 .fixed-button{
     background: rgba(20,20,20,.5);
@@ -75,12 +83,20 @@ html, body{
     font-size: 3em;
     margin-top: 2em;
 }
-.sub-heading-bottom {
+.sub-heading-justify {
     font-family: "Caveat", cursive;
-    text-align: justify;
+    width: 80%; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto; /* Centra el contenedor */
+    text-align: justify; /* Justifica el texto */
+    text-align-last: center; /* Centra la última línea del texto */
     font-size: 3em;
     margin-top: 2em; /* Reduce el margen superior */
         }
+.sub-heading-justify:after {
+    content: "";
+    display: inline-block;
+    width: 100%; /* Ocupa todo el ancho de la línea */
+}
 .details{
     margin: 0 auto 8em;
 }
