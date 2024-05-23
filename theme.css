@@ -38,7 +38,6 @@ html, body{
     display: block;
     font-family: "Caveat", cursive;
     font-size: 1.2em; /* Ajusta este valor según el tamaño que desees para los números */
-    font-weight: bold; /* Opcional: añade peso a los números */
     color: inherit; /* Hereda el color de su elemento padre */
 }
 .fixed-button{
