@@ -119,7 +119,7 @@ html, body{
 .resort-image{
     width: 100%
 }
-.footer {
+#footer {
     display: none;
     position: fixed;
     bottom: 0;
