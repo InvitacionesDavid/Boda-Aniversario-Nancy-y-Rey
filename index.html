@@ -24,6 +24,13 @@
             background-size: contain, cover;
             color: black;
         }
+        /* Imagen de fondo para móviles */
+        @media (max-width: 600px) {
+            body {
+            background: url("img/flores2.png") no-repeat center center fixed;
+            background-size: contain,cover;
+            }
+        }
         .countdown {
             text-align: center;
             margin-bottom: 30px;
@@ -151,6 +158,12 @@
         .icon {
             font-size: 5em; /* Ajusta el tamaño del icono si es necesario */
         }
+        .small-image {
+            max-width: 50%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
     </style>
     <body>
         <header class="header">
@@ -160,18 +173,14 @@
             </h1>
         </header>
         <section class="section">
-            <h2 class="sub-heading">TENEMOS EL HONOR DE INVITARTE</h2>
-            <p>
-                <strong>A ESTA CELEBRÁCION DE 30 ANIVERSARIO, </strong>
-            </p>
-            <h2 class="sub-heading">ITINERARIO</h2>
-            <br>
+            <h2 class="sub-heading">TENEMOS EL HONOR DE INVITARTE A NUESTRO 30 ANIVERSARIO</h2>
+            <br><br><br>
             <div class="details-container">
                 <div class="icon-heading-wrapper">
             <i class="fas fa-calendar-check icon"></i>
                 </div>
             <h3 class="details-heading">CUÁNDO</h3>
-            <p><strong>15 DE JUNIO, 2024</strong></p>
+            <h1 class="details-heading"><strong>15 * 06 * 2024</strong></h1>
                 </div>
             <div class="countdown">
                 <h1 class="countdown-title details-heading">SÓLO FALTAN</h1>
@@ -198,10 +207,10 @@
                 <i class="fas fa-church icon"></i>
                     </div>  
                 <h3 class="details-heading">CEREMONIA RELIGIOSA</h3>
-                <p>
-                    <a rel="noopener" href="https://www.facebook.com/SanMartinDePorresCDJ"><strong>PARROQUIA SAN MARTÍN DE PORRES</strong></a><strong>, CIUDAD JUÁREZ, CHIHUAHUA</strong>
-                </p>
-                <strong><p><a>HORARIO 6:00 PM</a></p></strong>
+                <h1 class="details-heading">
+                    <a rel="noopener" href="https://www.facebook.com/SanMartinDePorresCDJ"><strong>PARROQUIA SAN MARTÍN DE PORRES</strong></a><strong>
+                </h1>
+                <h1 class="details-heading"><strong>HORARIO 6:00 PM</strong></h1>
                  <div class="iframe-container">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.0940290676267!2d-106.4790194780487!3d31.685997310056056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75efb95bd10c3%3A0x375426f4f9434d41!2sParroquia%20de%20San%20Mart%C3%ADn%20de%20Porres!5e0!3m2!1ses-419!2smx!4v1716091855666!5m2!1ses-419!2smx"
@@ -220,10 +229,10 @@
                 <i class="fas fa-map-marked-alt icon"></i> 
                     </div>
                 <h3 class="details-heading">RECEPCIÓN</h3>   
-                <p>
-                    <a rel="noopener" href="https://www.facebook.com/p/Recepciones-y-Terraza-Victoria-100083586361410/"><strong>SALÓN DE RECEPCIONES VICTORIA</strong></a><strong>, CIUDAD JUÁREZ, CHIHUAHUA</strong>
-                </p>
-                <strong><p><a>HORARIO DE 9:00 PM A 1:00 AM</a></p></strong>
+                <h1 class="details-heading">
+                    <a rel="noopener" href="https://www.facebook.com/p/Recepciones-y-Terraza-Victoria-100083586361410/"><strong>SALÓN DE RECEPCIONES VICTORIA</strong></a>
+                </h1>
+                <h1 class="details-heading"><strong>HORARIO DE 9:00 PM A 1:00 AM</strong></h1>
                  <div class="iframe-container">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.18846091413!2d-106.46649360773394!3d31.738056469621306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e759ace712a9d3%3A0x1e303e2fffdde0fc!2sRecepciones%20Victoria%20Sal%C3%B3n%20y%20Terraza!5e0!3m2!1ses-419!2smx!4v1716091889507!5m2!1ses-419!2smx"
@@ -245,12 +254,12 @@
                 <i class="fas fa-user-tie icon"></i>
                     </div>
                 <h3 class="details-heading">CÓDIGO DE VESTIMENTA</h3>
-                <p>
-                    <strong>ASISTIR CON ROPA SEMI-FORMAL</strong>
-                </p>
-                <p>
+                <h1 class="details-heading">
+                    <strong>ASISTIR CON ROPA FORMAL (NO BEIGE)</strong>
+                </h1>
+                <h1 class="details-heading">
                     <strong>NO NIÑOS</strong>
-                </p>
+                </h1>
                     </div>
             <br>
                 <div class="details-container">
@@ -258,23 +267,21 @@
                 <i class="fas fa-asterisk icon"></i>
                     </div>
                 <h3 class="details-heading">OTRAS NOTAS</h3>
-               <p><strong>
-                        AUNQUE NOS GUSTAN LOS NIÑOS, SERÁ UNA CELEBRACIÓN SÓLO
-                        PARA MAYORES.<br>
-                        FAVOR DE CONFIRMAR TU PRESENCIA CUANDO RECIBAS ESTA
-                        INVITACIÓN ANTES DEL EVENTO.
-                    </strong></p>
-                <p><strong>
-                        Also, your presence is the only present we desire. No
-                        gift required.
-                    </strong></p>
-                <p><strong>¡MUCHAS GRACIAS!</strong></p>
+                    <h1 class="details-heading">
+                    <strong>AUNQUE NOS GUSTAN LOS NIÑOS, SERÁ UNA CELEBRACIÓN SÓLO
+                        PARA MAYORES</strong>
+                </h1>
+                <h2 class="sub-heading">¡TE ESPERAMOS!
+                    <span class="sub-heading">POR FAVOR, CONFIRMA TU ASISTENCIA</span>
+                </h2>
                 <a href="https://chat.whatsapp.com/DVVad6DZgGMLM1qMzNhwx8" class="confirm-button">
                     CONFIRMAR ASISTENCIA
                 </a>
                     <h2 class="sub-heading">¡NOS VEMOS EN LA CELEBRACIÓN DE REY Y NANCY!
                 </h2>
-                    <br><br><br><br><br><br><br><br> 
+                    <br><br>
+                    <img class="small-image" src="img/novios.png" alt="Novios"/>
+                    <br><br><br>
                 </div>
                 </section>
             <footer class="footer">
